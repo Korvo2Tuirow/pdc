@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
+
 body{
   
-    position: relative;
-    
+    background-color: #000;
+   
 }
-
+*/
 section.fundo {
    
     position: absolute static;
