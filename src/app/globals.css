@@ -8,7 +8,7 @@ body{
     background-color: #000;
    
 }
-*/
+/*
 section.fundo {
    
     position: absolute static;
@@ -28,7 +28,7 @@ section.fundo div {
     
 }
 
-/*section.fundo div:nth-child(odd) {
+section.fundo div:nth-child(odd) {
     background-color: rgb(245, 229, 6);
 }
 
