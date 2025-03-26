@@ -11,7 +11,7 @@ export default function Home() {
 
             style={{
               animationDelay: `${Math.random() * 120}s`, // Delay aleatório de 0 a 3s
-            }}
+            }} 
 
           ></div>
         ))}
