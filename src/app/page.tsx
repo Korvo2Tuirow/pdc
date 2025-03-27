@@ -19,6 +19,7 @@ export default function Home() {
 
       <div className="z-10 flex p-10 gap-24 flex-col absolute w-full justify-center items-center pointer-events-none ">
         <Image
+          className="rotate-scale-down-ver"
           src={"/logo3.png"} width={800} height={800} alt="logo"
         />
 
@@ -28,20 +29,6 @@ export default function Home() {
 
         <div className="bg-black/30 backdrop-blur-md shadow-2xl shadow-yellow-400 border border-yellow-300 text-white p-5 rounded-lg w-full max-w-[1000px]  ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit debitis voluptatibus mollitia quasi voluptatem sed maiores perspiciatis, obcaecati iste ipsam ad aliquam qui rerum at commodi.it amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit debitis voluptatibus mollitia quasi voluptatem sed maiores perspiciatis, obcaecati iste ipsam ad aliquam qui rerum at commodi.it amet consectetur adipisicing elit..</div>
       </div>
-
-      <style>
-        {`
-          @keyframes pulseCustom {
-            0%, 100% { background-color: black; }
-            50% { background-color: rgb(34,31,4); }
-          }
-          .animate-pulse-custom {
-            animation: pulseCustom 10s infinite;
-          }
-        `}
-      </style>
-
-
     </div>
 
   );
