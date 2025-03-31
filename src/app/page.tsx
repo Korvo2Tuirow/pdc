@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Container } from "./components/containers/containers";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
 
             style={{
               animationDelay: `${Math.random() * 120}s`, // Delay aleatório de 0 a 3s
-            }} 
+            }}
 
           ></div>
         ))}
@@ -23,11 +24,10 @@ export default function Home() {
           src={"/logo3.png"} width={800} height={800} alt="logo"
         />
 
-        <div className="bg-black/10 backdrop-blur-md shadow-2xl shadow-yellow-400 border border-yellow-300 text-white p-5 rounded-lg w-full max-w-[1000px]  ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit arerum at commodi.it amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum e.</div>
+        <Container text={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit arerum at commodi.it amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum e."} />
 
-        <div className="bg-black/30 backdrop-blur-md shadow-2xl shadow-yellow-400 border border-yellow-300 text-white p-5 rounded-lg w-full max-w-[1000px]  ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit debitis voluptatibus mollitia quasi voluptatem sed maiores perspiciatis, obcaecati iste ipsam ad aliquam qui rerum at commodi.it amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit debitis voluptatibus mollitia quasi voluptatem sed maiores perspiciatis, obcaecati iste ipsam ad aliquam qui rerum at commodi.it amet consectetur adipisicing elit..</div>
 
-        <div className="bg-black/30 backdrop-blur-md shadow-2xl shadow-yellow-400 border border-yellow-300 text-white p-5 rounded-lg w-full max-w-[1000px]  ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit debitis voluptatibus mollitia quasi voluptatem sed maiores perspiciatis, obcaecati iste ipsam ad aliquam qui rerum at commodi.it amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit debitis voluptatibus mollitia quasi voluptatem sed maiores perspiciatis, obcaecati iste ipsam ad aliquam qui rerum at commodi.it amet consectetur adipisicing elit..</div>
+
       </div>
     </div>
 
