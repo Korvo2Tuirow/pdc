@@ -2,8 +2,12 @@
 import Image from "next/image";
 import { Banner } from "./components/banner";
 import { Container } from "./components/containers";
+import Link from "next/link";
 
 export default function Home() {
+
+  const linkZap = `http://wa.me//${process.env.NEXT_PUBLIC_ZAP}`
+
   return (
     <div>
       <section className="fixed top-0 left-0 w-full h-screen flex flex-wrap">
@@ -45,7 +49,7 @@ export default function Home() {
             />
           </div>
 
-
+            <Link href={linkZap}>
           <Image
             src={"/whatsapp1.png"}
             width={120}
@@ -53,6 +57,7 @@ export default function Home() {
             alt="whtassapp"
             className="p-5 rounded-lg cursor-pointer pointer-events-auto"
           />
+          </Link>
         </nav>
 
         <Banner />
