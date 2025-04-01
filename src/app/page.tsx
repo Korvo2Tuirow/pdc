@@ -21,9 +21,21 @@ export default function Home() {
 
       <div className="z-10 flex p-10 gap-24 flex-col absolute w-full justify-center items-center pointer-events-none ">
 
-        <Banner/>       
+        <Banner />
 
-        <Container text={"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum exercitationem neque eveniet illo ex quod distinctio maiores tempore ipsum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure cum deleniti velit arerum at commodi.it amet consectetur adipisicing elit. Earum qui odio aspernatur beatae fugit esse ab, soluta impedit molestiae cum e."} />
+     
+
+        <div className="bg-white/10 backdrop-blur-md border text-lg border-yellow-300 text-white p-5 rounded-lg w-full max-w-[1000px]">
+
+        <h1 className=" text-4xl text-white flex justify-center items-center mb-5">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
+         
+        <p>
+          Se você busca hambúrgueres suculentos com pão de fabricação própria, pastéis crocantes, caldos irresistíveis e aquele açaí cremoso para refrescar o dia, você está no lugar certo! 😍
+            Aqui, cada detalhe faz a diferença. Nosso pão é artesanal, feito diariamente para garantir frescor e sabor incomparáveis. Cada ingrediente é escolhido com carinho, resultando em uma experiência gastronômica única e inesquecível.
+            📍 Peça agora e descubra o verdadeiro sabor!
+            🚀 Delivery rápido | 🏠 Ambiente aconchegante | ❤️ Feito com paixão
+            🔽 Faça seu pedido agora mesmo!
+        </p></div>
 
       </div>
     </div>
