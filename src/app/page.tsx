@@ -22,7 +22,7 @@ export default function Home() {
 
       <div className="z-10  flex flex-col absolute w-full justify-center items-center pointer-events-none">
 
-        <nav className="bg-black/30 backdrop-blur-md flex justify-center items-center text-lg text-white p-5  rounded-lg w-full max-w-[1000px]">
+        <nav className="bg-black/10 flex justify-center items-center text-lg text-white p-5  rounded-lg w-full max-w-[1000px]">
 
           <div className="flex-1 flex">
             {/*
