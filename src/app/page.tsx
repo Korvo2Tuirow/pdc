@@ -41,19 +41,19 @@ export default function Home() {
 
           <div className="bg-red-500 p-4 rounded-full ">
 
-          <Link href={linkIfood} target="_blank"  className="cursor-pointer pointer-events-auto"> 
-            <Image
-              src={"/ifood-logo-7.png"}
-              width={80}
-              height={80}
-              alt="ifood"
-              className="cursor-pointer pointer-events-auto"
-            />
+            <Link href={linkIfood} target="_blank" className="cursor-pointer pointer-events-auto">
+              <Image
+                src={"/ifood-logo-7.png"}
+                width={80}
+                height={80}
+                alt="ifood"
+                className="cursor-pointer pointer-events-auto"
+              />
             </Link>
           </div>
 
-          
-            <Link href={linkZap} target="_blank"  className="cursor-pointer pointer-events-auto"> 
+
+          <Link href={linkZap} target="_blank" className="cursor-pointer pointer-events-auto">
             <Image
               src={"/whatsapp1.png"}
               width={120}
@@ -61,8 +61,8 @@ export default function Home() {
               alt="whtassapp"
               className="p-5 rounded-lg"
             />
-            </Link>
-          
+          </Link>
+
         </nav>
 
         <Banner />
@@ -80,6 +80,13 @@ export default function Home() {
           </p>
 
         </div>
+
+        <footer  className="bg-white/10 backdrop-blur-md p-3 my-20 text-white rounded-lg   w-full max-w-[1000px]  text-lg">
+          <div className="flex justify-center items-center text-center" >Horário de atendimento de Terça a Domingo, das 19:00 às 01:00.
+          </div>
+          <div className="flex justify-center items-center" >Avenida Ilda Rosa da Cunha 1244, Praia Grande
+          </div>
+        </footer>
 
       </div>
     </div>

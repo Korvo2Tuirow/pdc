@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph:{
     images: [
       {
-        url: "/logo2.jpg", // Caminho da imagem
+        url: "/logofundo.jpg", // Caminho da imagem
         width: 1200,
         height: 630,
         alt: "Point do Canal - Hambúrguer Artesanal",
