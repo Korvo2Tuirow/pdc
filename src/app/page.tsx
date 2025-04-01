@@ -1,12 +1,14 @@
 
 import Image from "next/image";
 import { Banner } from "./components/banner";
-import { Container } from "./components/containers";
+
 import Link from "next/link";
 
 export default function Home() {
 
+
   const linkZap = `https://wa.me//${process.env.NEXT_PUBLIC_ZAP}`;
+  const linkIfood = `${process.env.NEXT_PUBLIC_IFOOD}`;
 
   return (
     <div>
@@ -39,25 +41,28 @@ export default function Home() {
 
           <div className="bg-red-500 p-4 rounded-full ">
 
+          <Link href={linkIfood} target="_blank"  className="cursor-pointer pointer-events-auto"> 
             <Image
               src={"/ifood-logo-7.png"}
               width={80}
               height={80}
               alt="ifood"
               className="cursor-pointer pointer-events-auto"
-
             />
+            </Link>
           </div>
 
-            <Link href={linkZap} target="_blank" className="cursor-pointer pointer-events-auto">
-          <Image
-            src={"/whatsapp1.png"}
-            width={120}
-            height={120}
-            alt="whtassapp"
-            className="p-5 rounded-lg"
-          />
-          </Link>
+          
+            <Link href={linkZap} target="_blank"  className="cursor-pointer pointer-events-auto"> 
+            <Image
+              src={"/whatsapp1.png"}
+              width={120}
+              height={120}
+              alt="whtassapp"
+              className="p-5 rounded-lg"
+            />
+            </Link>
+          
         </nav>
 
         <Banner />
