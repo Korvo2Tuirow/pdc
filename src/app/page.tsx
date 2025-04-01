@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
 
-  const linkZap = `http://wa.me//${process.env.NEXT_PUBLIC_ZAP}`
+  const linkZap = `https://wa.me//${process.env.NEXT_PUBLIC_ZAP}`;
 
   return (
     <div>
@@ -49,13 +49,13 @@ export default function Home() {
             />
           </div>
 
-            <Link href={linkZap}>
+            <Link href={linkZap} className="cursor-pointer pointer-events-auto">
           <Image
             src={"/whatsapp1.png"}
             width={120}
             height={120}
             alt="whtassapp"
-            className="p-5 rounded-lg cursor-pointer pointer-events-auto"
+            className="p-5 rounded-lg"
           />
           </Link>
         </nav>
