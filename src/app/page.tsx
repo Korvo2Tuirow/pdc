@@ -49,7 +49,7 @@ export default function Home() {
             />
           </div>
 
-            <Link href={linkZap} className="cursor-pointer pointer-events-auto">
+            <Link href={linkZap} target="_blank" className="cursor-pointer pointer-events-auto">
           <Image
             src={"/whatsapp1.png"}
             width={120}
