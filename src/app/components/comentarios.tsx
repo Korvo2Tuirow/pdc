@@ -9,7 +9,7 @@ type Props = {
 
 const Coments = ( { nome, nota, data, comentario}:Props) => {
     return ( 
-    <div className=" p-2 border-y border-gray-300 ">
+    <div className=" p-2 border-t border-gray-300 ">
             <div className="flex flex-col gap-2">
             <span className="text-gray-600 font-bold text-xl">{nome}</span>
             <div className="flex justify-between items-center gap-3">
