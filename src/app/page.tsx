@@ -82,9 +82,11 @@ export default function Home() {
             
             <div className="bg-black/30 gap-5 flex flex-wrap my-24 justify-center items-center text-white p-5  w-auto max-w-[1000px]" >
             
-                <Image src={"/h01.jpg"} width={400} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
-                <Image src={"/foto2.jpg"} width={400} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>            
-                <Image src={"/h03.jpg"} width={500} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/h01.jpg"} width={250} height={1} alt="h1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/h04.jpg"} width={250} height={1} alt="h4" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>            
+                <Image src={"/h03.jpg"} width={500} height={1} alt="h3" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/pr01.jpg"} width={250} height={1} alt="h5" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/h05.jpg"} width={250} height={1} alt="h5" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
 
             </div>
 
