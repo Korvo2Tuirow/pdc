@@ -1,7 +1,6 @@
 
 import Image from "next/image";
 import { Banner } from "./components/banner";
-
 import Link from "next/link";
 
 export default function Home() {
@@ -67,7 +66,7 @@ export default function Home() {
 
         <Banner />
 
-        <div className="bg-white backdrop-blur-md   text-white p-5  w-full max-w-[1000px] shadow-2xl shadow-yellow-400" id="qsomo">
+        <div className="bg-white backdrop-blur-md   text-white p-5  w-full max-w-[1000px] " id="qsomo">
 
           <h1 className=" text-4xl text-black flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
 
@@ -80,6 +79,18 @@ export default function Home() {
           </p>
 
         </div>
+            
+            <div className="bg-black/30 gap-5 flex flex-wrap my-24 justify-center items-center text-white p-5  w-auto max-w-[1000px]" >
+            
+                <Image src={"/h01.jpg"} width={400} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/foto2.jpg"} width={400} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/h02.jpg"} width={500} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+                <Image src={"/h03.jpg"} width={500} height={1} alt="foto1" className="shadow-2xl shadow-yellow-400 rounded-2xl"/>
+
+            </div>
+
+           
+
 
         <footer  className="bg-white/10 backdrop-blur-md p-3 my-20 text-white rounded-lg   w-full max-w-[1000px]  text-lg">
           <div className="flex justify-center items-center text-center" >Horário de atendimento de Terça a Domingo, das 19:00 às 01:00.
