@@ -11,7 +11,7 @@ export const metadata: Metadata = {
         url: "/logofundo.jpg", // Caminho da imagem
         width: 1200,
         height: 630,
-        alt: "Point do Canal - Hambúrguer Artesanal",
+        alt: "Point do Canal - A melhor hamburgueria da Praia Grande",
       },
     ],
   }
