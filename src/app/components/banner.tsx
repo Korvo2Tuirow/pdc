@@ -4,7 +4,7 @@ export const Banner = () =>{
     return(
         <>
          <Image
-                  className="rotate-scale-down-ver"
+                  className="rotate-scale-down-ver mt-[-50px]"
                   src={"/logo3.png"} width={800} height={800} alt="logo"
                 />
                 </>
