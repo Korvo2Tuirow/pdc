@@ -4,7 +4,7 @@ import Coments from "./components/comentarios";
 import Album from "./components/album";
 import BackgroundSquare from "./components/background-square";
 import NavBar from "./components/menu";
-import { VideoPDC } from "./components/videoMedia";
+import { SocialMedia } from "./components/socialMedia";
 
 export default function Home() {
 
@@ -20,7 +20,7 @@ export default function Home() {
         <Banner />
 
       
-        <section className="bg-white backdrop-blur-md  px-5 py-10  w-full max-w-[1000px] rounded-md shadow-2xl shadow-blue-400" id="qsomo" >
+        <section className="bg-white backdrop-blur-md  px-5 py-10  w-full max-w-[1000px] rounded-md" id="qsomo" >
 
           <h1 className=" text-4xl text-gray-700 flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
         <Album />
 
 
-        <section className="bg-white backdrop-blur-md rounded-md  p-5  w-full max-w-[1000px] shadow-2xl shadow-blue-400">
+        <section className="bg-white backdrop-blur-md rounded-md  p-5  w-full max-w-[1000px]">
 
           <h2 className="flex w-full justify-center text-gray-500 font-bold text-2xl pb-5">Avaliações no Ifood </h2>
 
@@ -55,7 +55,7 @@ export default function Home() {
 
         </section>
 
-        <VideoPDC/>
+        <SocialMedia/>
 
 
 
