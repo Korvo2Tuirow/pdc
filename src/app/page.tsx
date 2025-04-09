@@ -4,6 +4,7 @@ import Coments from "./components/comentarios";
 import Album from "./components/album";
 import BackgroundSquare from "./components/background-square";
 import NavBar from "./components/menu";
+import { VideoPDC } from "./components/videoMedia";
 
 export default function Home() {
 
@@ -53,6 +54,8 @@ export default function Home() {
 
 
         </section>
+
+        <VideoPDC/>
 
 
 
