@@ -20,7 +20,7 @@ export default function Home() {
         <Banner />
 
       
-        <section className="bg-white backdrop-blur-md  px-5 py-10  w-full max-w-[1000px] rounded-md" id="qsomo">
+        <section className="bg-white backdrop-blur-md  px-5 py-10  w-full max-w-[1000px] rounded-md shadow-2xl shadow-blue-400" id="qsomo" >
 
           <h1 className=" text-4xl text-gray-700 flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
 
@@ -38,7 +38,7 @@ export default function Home() {
         <Album />
 
 
-        <section className="bg-white backdrop-blur-md rounded-md  p-5  w-full max-w-[1000px]">
+        <section className="bg-white backdrop-blur-md rounded-md  p-5  w-full max-w-[1000px] shadow-2xl shadow-blue-400">
 
           <h2 className="flex w-full justify-center text-gray-500 font-bold text-2xl pb-5">Avaliações no Ifood </h2>
 
