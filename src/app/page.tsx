@@ -5,7 +5,7 @@ import Album from "./components/album";
 import BackgroundSquare from "./components/background-square";
 import NavBar from "./components/menu";
 import { SocialMedia } from "./components/socialMedia";
-import Anima from "@/utils/anima";
+
 
 export default function Home() {
 
@@ -15,14 +15,13 @@ export default function Home() {
 
       <div className="z-10  flex flex-col absolute w-full justify-center items-center pointer-events-none ">
 
-        <Anima>
+      
           <NavBar />
-        </Anima>
-
+      
         <Banner />
 
 
-        <Anima from="right">
+     
 
           <section className="bg-white backdrop-blur-md  px-5 py-10  w-full max-w-[1000px] rounded-md" id="qsomo" >
             <h1 className=" text-4xl text-gray-700 flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
@@ -34,13 +33,12 @@ export default function Home() {
               🔽 Faça seu pedido agora mesmo!
             </p>
           </section>
-        </Anima>
+       
 
 
 
-        <Anima from="left">
           <Album />
-        </Anima>
+     
 
 
       
