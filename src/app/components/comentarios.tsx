@@ -34,11 +34,7 @@ const Coments = () => {
           <div>
             <p className="text-gray-500">{comment.comentario}</p>
           </div>
-
-
         </div>
-
-
       ))
       }
     </div>
@@ -47,4 +43,16 @@ const Coments = () => {
 }
 
 export default Coments;
+
+
+/*
+            <section className="bg-white backdrop-blur-md rounded-md  p-5 mb-24 w-full max-w-[1000px]">
+          <h2 className="flex w-full justify-center text-gray-500 font-bold text-2xl pb-5">Avaliações no Ifood </h2>
+          <Coments nome="Iza" nota="5,0" data="22/03/2025" comentario="Parabéns , adorei 👏👏👏👏, super indico" />
+          <Coments nome="Andressa" nota="5,0" data="22/03/2025" comentario="Nota mil parabéns!!!!" />
+          <Coments nome="Bruninho" nota="5,0" data="20/03/2025" comentario="Lanche top 🤩" />
+          <Coments nome="Lorena" nota="5,0" data="20/03/2025" comentario="Melhor lanche da Praia Grande" />
+          <Coments nome="Gabriela" nota="5,0" data="18/03/2025" comentario="Gostei bastante bem caprichado nota 1000" />
+        </section>
+*/
 

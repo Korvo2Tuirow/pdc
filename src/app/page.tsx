@@ -35,11 +35,11 @@ export default function Home() {
               🔽 Faça seu pedido agora mesmo!
             </p>
           </section>
-        </Anima>       
+        </Anima>
 
         <Album />
 
-        <Coments/>
+        <Coments />
 
         <SocialMedia />
 

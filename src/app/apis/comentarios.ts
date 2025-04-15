@@ -33,7 +33,7 @@ export const commentsApi: Comments[] = [
     id: 5,
     nome: "Gabriela",
     nota: 5.0,
-    data: "118/03/2025",
+    data: "18/03/2025",
     comentario: "Gostei bastante bem caprichado nota 1000",
   },
 ];
