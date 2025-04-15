@@ -21,9 +21,10 @@ const Anima = ({ children, from }: Props) => {
                 if (teste.current) {                    
                         teste.current?.classList.add(...(from === 'left' ? ['slide-in-left'] : ['slide-in-right']));
                     }
+              
                 }
 
-                console.log(entries);
+           
             
         }, { threshold: 0.1 });
 
