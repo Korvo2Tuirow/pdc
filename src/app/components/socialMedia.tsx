@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 export const SocialMedia = () => {
     return (
-        <div className='flex flex-col justify-center items-center w-full max-w-[1000px] mt-16  bg-white rounded-t-lg '>
+        <div className='flex flex-col justify-center items-center w-full max-w-[1000px]   bg-white rounded-t-lg '>
 
             <h1 className="  text-gray-500 font-bold   pt-8  rounded-lg flex justify-center  w-full max-w-[1000px]  text-2xl">Sigam em nossas redes sociais</h1>
 

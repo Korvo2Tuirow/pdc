@@ -5,6 +5,7 @@ import Album from "./components/album";
 import BackgroundSquare from "./components/background-square";
 import NavBar from "./components/menu";
 import { SocialMedia } from "./components/socialMedia";
+import Anima from "@/utils/anima";
 
 
 export default function Home() {
@@ -15,15 +16,18 @@ export default function Home() {
 
       <div className="z-10  flex flex-col absolute w-full justify-center items-center pointer-events-none ">
 
-      
+<Anima from="left">
+  
           <NavBar />
-      
+</Anima>
+
         <Banner />
 
 
-     
 
-          <section className="bg-white backdrop-blur-md  px-5 py-10  w-full max-w-[1000px] rounded-md" id="qsomo" >
+<Anima from="right">
+  
+          <section className="bg-white backdrop-blur-md  px-5 py-10 mb-24 w-full max-w-[1000px] rounded-md" id="qsomo" >
             <h1 className=" text-4xl text-gray-700 flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
             <p className="text-gray-600 text-lg ">
               Se você busca hambúrgueres suculentos com pão de fabricação própria, pastéis crocantes, caldos irresistíveis e aquele açaí cremoso para refrescar o dia, você está no lugar certo! 😍
@@ -33,16 +37,20 @@ export default function Home() {
               🔽 Faça seu pedido agora mesmo!
             </p>
           </section>
-       
+</Anima>
 
 
 
+<Anima from="left">
+  
           <Album />
-     
+  
+</Anima>
 
 
-      
-          <section className="bg-white backdrop-blur-md rounded-md  p-5  w-full max-w-[1000px]">
+<Anima from="right">
+  
+          <section className="bg-white backdrop-blur-md rounded-md  p-5 mb-24 w-full max-w-[1000px]">
             <h2 className="flex w-full justify-center text-gray-500 font-bold text-2xl pb-5">Avaliações no Ifood </h2>
             <Coments nome="Iza" nota="5,0" data="22/03/2025" comentario="Parabéns , adorei 👏👏👏👏, super indico" />
             <Coments nome="Andressa" nota="5,0" data="22/03/2025" comentario="Nota mil parabéns!!!!" />
@@ -50,10 +58,13 @@ export default function Home() {
             <Coments nome="Lorena" nota="5,0" data="20/03/2025" comentario="Melhor lanche da Praia Grande" />
             <Coments nome="Gabriela" nota="5,0" data="18/03/2025" comentario="Gostei bastante bem caprichado nota 1000" />
           </section>
-    
+</Anima>
 
-        <SocialMedia />
-
+<Anima from="left">
+  
+          <SocialMedia />
+  
+</Anima>
 
 
 
