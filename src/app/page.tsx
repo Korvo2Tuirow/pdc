@@ -25,7 +25,7 @@ export default function Home() {
 
         <Anima from="right">
 
-          <section className="bg-white backdrop-blur-md  px-5 py-10 mb-24 w-full max-w-[1000px] rounded-md" id="qsomo" >
+          <section className="bg-white backdrop-blur-md  px-5 py-10 mb-24 w-full max-w-[1000px] rounded-md z-10" id="qsomo" >
             <h1 className=" text-4xl text-gray-700 flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
             <p className="text-gray-600 text-lg ">
               Se você busca hambúrgueres suculentos com pão de fabricação própria, pastéis crocantes, caldos irresistíveis e aquele açaí cremoso para refrescar o dia, você está no lugar certo! 😍
@@ -43,7 +43,7 @@ export default function Home() {
 
         <SocialMedia />
 
-        <footer className="bg-white/10 backdrop-blur-md p-3 my-20 text-white rounded-lg   w-full max-w-[1000px]  text-lg">
+        <footer className="bg-white/10 backdrop-blur-md p-3 my-20 text-white rounded-lg   w-full max-w-[1000px]  text-lg z-10">
           <div className="flex justify-center items-center text-center" >Horário de atendimento de Terça a Domingo, das 19:00 às 01:00.
           </div>
           <div className="flex justify-center items-center" >Avenida Ilda Rosa da Cunha 1244, Praia Grande

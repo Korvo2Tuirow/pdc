@@ -6,7 +6,7 @@ const Coments = () => {
 
   return (
 
-    <div className="bg-white rounded-lg mb-24 p-5 border-t border-gray-300 flex flex-col w-full max-w-[1000px]">
+    <div className="bg-white rounded-lg mb-24 p-5 border-t border-gray-300 flex flex-col w-full max-w-[1000px] z-10">
       <h2 className="flex w-full justify-center text-gray-500 font-bold text-2xl pb-5">Avaliações no Ifood </h2>
       {commentsApi.map((comment) => (
 

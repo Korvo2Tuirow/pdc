@@ -5,7 +5,7 @@ export const SocialMedia = () => {
     return (
 
         <>
-            <div className='flex flex-col justify-center p-8 items-center w-full max-w-[1000px] gap-6 bg-white rounded-lg '>
+            <div className='flex flex-col justify-center p-8 items-center w-full max-w-[1000px] gap-6 bg-white rounded-lg z-10 '>
 
                 <h1 className="  text-gray-500 font-bold    rounded-lg flex justify-center  w-full max-w-[1000px]  text-2xl">Sigam em nossas redes sociais</h1>
 

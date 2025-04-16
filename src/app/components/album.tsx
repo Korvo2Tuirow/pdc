@@ -28,7 +28,7 @@ const Album = () => {
 
    
       
-        <section  className=" hidden   md:flex max-h-[300px] bg-black/30  flex-col  w-auto max-w-[1000px] mb-24 justify-center items-center text-white shadow-2xl shadow-blue-800 " >
+        <section  className=" hidden   md:flex max-h-[300px] bg-black/30  flex-col  w-auto max-w-[1000px] mb-24 justify-center items-center text-white shadow-2xl shadow-blue-800 z-10" >
       
           <div className="flex gap-4 rounded-lg  overflow-x-auto cursor-pointer pointer-events-auto">
             <Image src={"/h01.jpg"} width={300} height={1} alt="h1" className="shadow-2xl shadow-blue-800 " />
@@ -40,7 +40,7 @@ const Album = () => {
       
         </section>
   
-        <section  className=" flex md:hidden bg-black/30 gap-5 mb-24 flex-col  justify-center items-center text-white  w-auto max-w-[1000px]" >
+        <section  className=" flex md:hidden bg-black/30 gap-5 mb-24 flex-col  justify-center items-center text-white  w-auto max-w-[1000px] z-10" >
           <div className="flex gap-3 w-full">
             <Image src={"/h01.jpg"} width={150} height={1} alt="h1" className="shadow-2xl shadow-blue-400 border border-blue-800 rounded-lg" />
             <Image src={"/h04.jpg"} width={150} height={1} alt="h4" className="shadow-2xl shadow-blue-400 border border-blue-800 rounded-lg" />
