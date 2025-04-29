@@ -2,14 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 export const SocialMedia = () => {
+    
     return (
 
-        <>
-            <div className='flex flex-col justify-center p-8 items-center w-full max-w-[1000px] gap-6 bg-white rounded-lg z-10 '>
+        <div className='flex flex-col justify-center p-8 items-center w-full max-w-[1000px] gap-6 bg-white rounded-lg z-10 '>
 
-                <h1 className="  text-gray-500 font-bold    rounded-lg flex justify-center  w-full max-w-[1000px]  text-2xl">Sigam em nossas redes sociais</h1>
-
-          
+            <h1 className="  text-gray-500 font-bold    rounded-lg flex justify-center  w-full max-w-[1000px]  text-2xl">Sigam em nossas redes sociais</h1>
 
             <video width="1000" height="240" controls autoPlay muted loop className='pointer-events-auto flex justify-center items-center lg:mt-6  '>
                 <source src="/PDCvideo.mp4" type="video/mp4" />
@@ -27,9 +25,8 @@ export const SocialMedia = () => {
 
             </div>
 
-            </div>
+        </div>
 
-        </>
     );
 }
 

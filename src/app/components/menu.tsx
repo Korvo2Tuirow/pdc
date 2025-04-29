@@ -6,7 +6,7 @@ const NavBar = () => {
   const linkIfood = `${process.env.NEXT_PUBLIC_IFOOD}`;
 
   return (
-    <>
+
       <nav className="bg-black/10 flex justify-center items-center text-lg text-white p-5  rounded-lg w-full max-w-[1000px]">
         {/*
         <div className="flex-1 flex">
@@ -44,7 +44,7 @@ const NavBar = () => {
 
       </nav>
 
-    </>
+ 
   );
 }
 
