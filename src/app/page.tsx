@@ -35,17 +35,11 @@ export default function Home() {
           </section>
         </Anima>
 
-        <Anima from="left">
-          <Album />
-        </Anima>
+        <Album />
 
-        <Anima  from="right">
-          <Coments />
-        </Anima>
+        <Coments />
 
-        <Anima from="left">
-          <SocialMedia />
-        </Anima>
+        <SocialMedia />
 
         <footer className="bg-white/10 backdrop-blur-md p-3 my-20 text-white rounded-lg   w-full max-w-[1000px]  text-lg z-10">
           <div className="flex justify-center items-center text-center" >Horário de atendimento de Terça a Domingo, das 19:00 às 01:00.
