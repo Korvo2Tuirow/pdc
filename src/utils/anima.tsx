@@ -24,7 +24,7 @@ const Anima = ({ children, from }: Props) => {
               
                 }           
             
-        }, { threshold: 0.01 });
+        }, { threshold: 0.1 });
 
 
         observado.observe(teste.current!);
