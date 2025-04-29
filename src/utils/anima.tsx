@@ -12,7 +12,7 @@ export type Props =
 
 const Anima = ({ children, from }: Props) => {
 
-    const teste = useRef<HTMLDivElement>(null);
+    const teste = useRef<HTMLDivElement>([] as any);
 
     useEffect(() => {
         const observado = new IntersectionObserver(([entries]) => {
@@ -22,11 +22,9 @@ const Anima = ({ children, from }: Props) => {
                         teste.current?.classList.add(...(from === 'left' ? ['slide-in-left'] : ['slide-in-right']));
                     }
               
-                }
-
-           
+                }           
             
-        }, { threshold: 0.1 });
+        }, { threshold: 0.01 });
 
 
         observado.observe(teste.current!);
@@ -36,7 +34,7 @@ const Anima = ({ children, from }: Props) => {
 
 
     return (
-        <div className="opacity-0 flex justify-center items-center w-full"
+        <div className="opacity-0 flex  justify-center items-center w-full"
             ref={teste}
         >
             {children}

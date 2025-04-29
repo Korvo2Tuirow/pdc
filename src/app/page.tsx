@@ -17,14 +17,12 @@ export default function Home() {
       <div className="z-10  flex flex-col absolute w-full justify-center items-center pointer-events-none ">
 
         <Anima from="left">
-
           <NavBar />
         </Anima>
 
         <Banner />
 
         <Anima from="right">
-
           <section className="bg-white backdrop-blur-md  px-5 py-10 mb-24 w-full max-w-[1000px] rounded-md z-10" id="qsomo" >
             <h1 className=" text-4xl text-gray-700 flex justify-center items-center mb-5 text-center qsomo">🍔🔥 Bem-vindo ao Point do Canal – O Sabor que Conquista!</h1>
             <p className="text-gray-600 text-lg ">
@@ -37,11 +35,17 @@ export default function Home() {
           </section>
         </Anima>
 
-        <Album />
+        <Anima from="left">
+          <Album />
+        </Anima>
 
-        <Coments />
+        <Anima  from="right">
+          <Coments />
+        </Anima>
 
-        <SocialMedia />
+        <Anima from="left">
+          <SocialMedia />
+        </Anima>
 
         <footer className="bg-white/10 backdrop-blur-md p-3 my-20 text-white rounded-lg   w-full max-w-[1000px]  text-lg z-10">
           <div className="flex justify-center items-center text-center" >Horário de atendimento de Terça a Domingo, das 19:00 às 01:00.
