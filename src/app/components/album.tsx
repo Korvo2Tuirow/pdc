@@ -25,8 +25,6 @@ const Album = () => {
 
   return (
     <>
-
-   
       
         <section  className=" hidden   md:flex max-h-[300px] bg-black/30  flex-col  w-auto max-w-[1000px] mb-24 justify-center items-center text-white shadow-2xl shadow-blue-800 z-10" >
       
@@ -50,9 +48,7 @@ const Album = () => {
             <Image src={"/pr01.jpg"} width={150} height={1} alt="h5" className="shadow-2xl shadow-blue-400 border border-blue-800 rounded-lg" />
             <Image src={"/h05.jpg"} width={150} height={1} alt="h5" className="shadow-2xl shadow-blue-400 border border-blue-800 rounded-lg" />
           </div>
-        </section>
-    
-     
+        </section>    
 
     </>
   )
