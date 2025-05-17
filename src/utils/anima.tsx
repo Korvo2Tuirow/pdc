@@ -37,7 +37,7 @@ const Anima = ({ children, from }: Props) => {
         <div className="opacity-0 flex  justify-center items-center w-full"
             ref={teste}
         >
-            {children}
+            {children }
         </div>
     )
 
